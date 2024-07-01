@@ -6,7 +6,5 @@ theme:
 
 nav:
 - 首页: index.md
-- 新生必看 : 
-- 学习资料:
 - 其他资料:
     - mkdocs教程: /other/mkdocs.md

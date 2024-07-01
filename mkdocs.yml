@@ -3,3 +3,10 @@ site_name: My site
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+
+nav:
+- 首页: index.md
+- 新生必看 : 
+- 学习资料:
+- 其他资料:
+    - mkdocs教程: /other/mkdocs.md

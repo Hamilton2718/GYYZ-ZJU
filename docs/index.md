@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+<!--
+ * @Author: Hamilton2718 3054970772@qq.com
+ * @Date: 2024-06-30 20:11:01
+ * @LastEditors: Hamilton2718 3054970772@qq.com
+ * @LastEditTime: 2024-07-01 13:15:00
+ * @FilePath: \my-wiki\docs\index.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+# Welcome to GYYZ-ZJU
+**这里是贵阳一中毕业的在浙江大学的就读的学长学姐们存放学习资料、生活建议的地方
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

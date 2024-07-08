@@ -17,7 +17,7 @@
         <link rel="next" href="../../other/mkdocs/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../img/fav.jpg">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
     
     
@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -60,10 +62,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -86,12 +90,12 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="GYYZ-ZJU" class="md-header__button md-logo" aria-label="GYYZ-ZJU" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5Z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -116,7 +120,33 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="切换到暗色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到暗色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="切换到亮色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到亮色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -137,11 +167,18 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -160,13 +197,77 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  衣食住行
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../other/mkdocs/" class="md-tabs__link">
+          
+  
+  奇怪的知识又增加了
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -180,13 +281,15 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="GYYZ-ZJU" class="md-nav__button md-logo" aria-label="GYYZ-ZJU" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5Z"/></svg>
 
     </a>
     GYYZ-ZJU
@@ -225,15 +328,23 @@
     
     
     
+      
+        
+        
+      
+      
+        
+      
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -304,15 +415,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      汉宫秋月
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       前言
@@ -363,15 +465,6 @@
   
     <nav class="md-nav" aria-label="景点">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      浙江大学紫金港校区（叉掉）
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
@@ -490,30 +583,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="后记">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#919186625qqcom" class="md-nav__link">
-    <span class="md-ellipsis">
-      联系方式：919186625@qq.com
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#httpswwwcc98orgtopic5843688" class="md-nav__link">
-    <span class="md-ellipsis">
-      参考文献：https://www.cc98.org/topic/5843688
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -541,12 +610,19 @@
     
     
     
+      
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -579,6 +655,27 @@
   
   <span class="md-ellipsis">
     mkdocs教程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/Markdown%E5%AE%9E%E4%BE%8B/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    test
   </span>
   
 
@@ -622,15 +719,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      汉宫秋月
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       前言
@@ -681,15 +769,6 @@
   
     <nav class="md-nav" aria-label="景点">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      浙江大学紫金港校区（叉掉）
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
@@ -808,30 +887,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="后记">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#919186625qqcom" class="md-nav__link">
-    <span class="md-ellipsis">
-      联系方式：919186625@qq.com
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#httpswwwcc98orgtopic5843688" class="md-nav__link">
-    <span class="md-ellipsis">
-      参考文献：https://www.cc98.org/topic/5843688
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -849,55 +904,55 @@
                   
 
 
-<h1 id="_1">杭州旅游攻略</h1>
-<h4 id="_2">汉宫秋月</h4>
+<h1 id="_1">杭州旅游攻略<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h4 id="_2">汉宫秋月<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
 <p>未经允许请勿外传</p>
 <p>内部资料我就不叠甲了，以下都是个人观点，仅供参考</p>
-<h2 id="_3">前言</h2>
+<h2 id="_3">前言<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p>八月份来杭州真的热，一定要做好防晒。虽说网上都说杭州是美食荒漠，但我觉得还是有不少好吃的。景点我也没去几个，主要就跟大家推荐几个我知道的。</p>
-<h2 id="_4">交通</h2>
+<h2 id="_4">交通<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>我在杭州都是打车或者坐地铁，这两个就能覆盖所有出行需求了。平时出行什么的跟着导航走就行。</p>
-<h3 id="_5">打车</h3>
+<h3 id="_5">打车<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <p>打车不建议打出租（来到陌生城市都不建议出租，容易被宰客），我是在高德地图上打车（也有人用滴滴），我觉得还挺方便的。</p>
-<h3 id="_6">地铁</h3>
+<h3 id="_6">地铁<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <p>杭州地铁卡使用攻略：</p>
 <p>打开支付宝-&gt;点击“出行”-&gt;然后申领杭州地区的地铁卡即可，申请地铁卡后直接刷支付宝就能进站，不用买票，很节约时间。</p>
 <p><img src="D:\攻略素材\出行卡.jpg" style="zoom:25%;" /></p>
-<h2 id="_7">景点</h2>
-<h4 id="_8">浙江大学紫金港校区（叉掉）</h4>
+<h2 id="_7">景点<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h4 id="_8"><del>浙江大学紫金港校区</del><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
 <p>这个你们会待厌的（），交通我在下一篇帖子写。拍照的话建议走正门（只有这个门上面有浙江大学几个大字），可以在那里和家长合照。正门是<strong>南1门</strong>。可以在月牙楼周围逛逛，临湖那片风景挺美的。</p>
 <p>预约进校：到时候你们注册浙大钉之后就可以自己给家长预约进校了（位于浙大钉“访客预约”）。这段时间想来学校可以找我，我可以帮忙预约。</p>
-<h3 id="_9">西湖</h3>
+<h3 id="_9">西湖<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
 <p>这个肯定都会去的，西湖周末人很多，建议错峰去。可以在<strong>龙翔桥地铁站</strong>下，一出来就是西湖。旁边还有in77之类的商超，这里也是杭州最繁华的地方。可以绕着西湖走走，但肯定是走不完的，西湖一圈都有十几公里。可以<strong>骑共享单车</strong>绕西湖骑行，走走停停拍拍照，全程十几公里，基本全是平地，不会很累。</p>
 <p><img alt="" src="C:\Users\田红瑾\AppData\Roaming\Typora\typora-user-images\image-20240708154637628.png" /></p>
 <p>（图来自cc98，侵删）</p>
 <p>我当时就是沿着这条路骑行了一圈（不过是周五下午，人是在太多了，建议周中去）</p>
 <p>西湖分为小西湖和大西湖，小西湖就是绕着湖的那一圈，大西湖就是整个西湖风景区。大西湖还包括灵隐寺、飞来峰这些景区（但我都没去过就不赘述了），西湖可以去求一个手串（应该是叫这名）。</p>
-<h3 id="_10">西溪湿地</h3>
-<p>西溪湿地适合骑行，风景挺好的，而且就在浙江大学紫金港校区旁白，平时没事都可以去玩玩。</p>
-<h3 id="_11">大运河杭钢公园</h3>
+<h3 id="_10">西溪湿地<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>西溪湿地适合骑行，风景挺好的，而且就在浙江大学紫金港校区旁边，平时没事都可以去玩玩。</p>
+<h3 id="_11">大运河杭钢公园<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>在小红书上刷到的，一直想去拍照可惜没时间。我挺喜欢这种风格的，具体攻略可以去小红书查查。</p>
-<h3 id="_12">良渚遗址</h3>
+<h3 id="_12">良渚遗址<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <p>杭州郊区，地铁直达，应该很不错。</p>
-<h2 id="_13">美食</h2>
+<h2 id="_13">美食<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
 <p>到了我最拿手的部分，来杭州一年啥都没干净去探店了（）。</p>
-<h3 id="_14">老头儿油爆虾</h3>
+<h3 id="_14">老头儿油爆虾<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
 <p>十分推荐，这家我去过很多次，出品也比较稳定（我杭州的同学也十分认可）杭帮菜的代表。in77旁边好像有一家，可以在那里吃，人均一百左右，推荐菜品是油爆虾、花生沙冰（据说是他家拿手菜），油炸带鱼也不错，干锅花菜也可以，就是杭帮菜很典型的甜。捞汁海鲜慎点，我感觉不行。老头儿油爆虾在杭州有特别多的分店，外卖也有，不建议特地跑去哪一家吃。不过市中心的肯定要比其他地方的更贵。</p>
-<h3 id="_15">外婆家</h3>
+<h3 id="_15">外婆家<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
 <p>上学期天天去吃，已经吃厌了（）。不过出品很稳定，价格也很便宜，紫金港校区旁边就有一家，人均五六十左右。那个茶香鸡不错，每次去必点，量很大。豆面也不错，我挺喜欢吃的。</p>
-<h3 id="_16">楼外楼</h3>
+<h3 id="_16">楼外楼<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
 <p>有个笑话是：建议去楼外楼的船上吃西湖醋鱼，吃一口后方便从窗户倒到湖里（）。</p>
 <p>我问过很多人，楼外楼的西湖醋鱼是最正宗的，如果特别想吃可以去尝试，不过西湖醋鱼怎么做都难吃。来杭州一年了我都没吃过，我的杭州室友也在极力劝退。</p>
-<h3 id="_17">新荣记</h3>
+<h3 id="_17">新荣记<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
 <p>高端菜代表，人均四五百？预算充足可以去尝试，新荣记出品应该不差，杭州也有好几家新荣记。具体攻略参考小红书或者b站。</p>
-<h3 id="_18">其他</h3>
+<h3 id="_18">其他<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
 <p>来自杭州同学的推荐：知味观、南宋胡记（蛋黄酥、许仙和白娘子酥）（这两家好像就在in77旁边）、新丰小吃。</p>
-<h2 id="_19">住</h2>
+<h2 id="_19">住<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h2>
 <p>建议提前订酒店，我当时是订在杭州东站旁边，好像是维也纳酒店，楼下有家衢州菜挺好吃的。也可以订在浙大紫金港旁边，不建议订在市中心，很贵，而且现在交通方便。从东站打车到紫金港我花了40，如果是拖着大包小包而且是一家人的话，建议打车，因为地铁太麻烦了，而且三个人加起来也不比地铁便宜多少。</p>
-<h2 id="_20">后记</h2>
+<h2 id="_20">后记<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h2>
 <p>。。。我现在出去团建都是吃东北菜、潮汕牛肉，但是第一次来还是可以试一试杭帮菜的。今天先写到这，生活指南什么的后面再写。</p>
-<h4 id="919186625qqcom">联系方式：919186625@qq.com</h4>
-<h4 id="httpswwwcc98orgtopic5843688">参考文献：https://www.cc98.org/topic/5843688</h4>
+<p><strong>联系方式：<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#57;&#49;&#57;&#49;&#56;&#54;&#54;&#50;&#53;&#64;&#113;&#113;&#46;&#99;&#111;&#109;">&#57;&#49;&#57;&#49;&#56;&#54;&#54;&#50;&#53;&#64;&#113;&#113;&#46;&#99;&#111;&#109;</a></strong></p>
+<p><strong>参考文献：<a href="https://www.cc98.org/topic/5843688">https://www.cc98.org/topic/5843688</a></strong></p>
 
 
 
@@ -918,9 +973,55 @@
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: 首页">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                首页
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../other/mkdocs/" class="md-footer__link md-footer__link--next" aria-label="Next: mkdocs教程">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                mkdocs教程
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -944,7 +1045,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "navigation.expand", "search.share", "toc.follow", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>

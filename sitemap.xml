@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/other/Markdown%E5%AE%9E%E4%BE%8B/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/other/mkdocs/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>

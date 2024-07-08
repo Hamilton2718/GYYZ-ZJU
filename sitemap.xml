@@ -6,17 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/FCHT/%E6%9D%AD%E5%B7%9E%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/other/Markdown%E5%AE%9E%E4%BE%8B/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/other/mkdocs/</loc>
-         <lastmod>2024-07-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mydomain.org/mysite/yszx/%E6%9D%AD%E5%B7%9E%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>

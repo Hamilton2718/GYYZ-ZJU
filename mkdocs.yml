@@ -1,10 +1,14 @@
-site_name: My Docs
-site_name: My site
+site_name: GYYZ-ZJU
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  palette:
+    primary: blue
+  
 
 nav:
 - 首页: index.md
-- 其他资料:
-    - mkdocs教程: /other/mkdocs.md
+- 衣食住行:
+    - 杭州旅游攻略: yszx\杭州旅游攻略.md
+- 奇怪的知识又增加了:
+    - mkdocs教程: other/mkdocs.md
